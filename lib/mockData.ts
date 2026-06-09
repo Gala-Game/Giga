@@ -20,7 +20,7 @@ export const mockTrades: Trade[] = [
         userId: 'user2',
         username: 'MarketWatcher',
         userAvatar: '👀',
-        content: 'Great entry point! I'm following this one.',
+        content: 'Great entry point! I\'m following this one.',
         timestamp: new Date(Date.now() - 1 * 60 * 60 * 1000).toISOString(),
       }
     ],
@@ -121,7 +121,7 @@ export const mockTrades: Trade[] = [
         userId: 'user1',
         username: 'CryptoTrader99',
         userAvatar: '👨‍💼',
-        content: 'Interesting short position. What's your thesis?',
+        content: 'Interesting short position. What\'s your thesis?',
         timestamp: new Date(Date.now() - 20 * 60 * 60 * 1000).toISOString(),
       }
     ],
