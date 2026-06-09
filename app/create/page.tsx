@@ -57,7 +57,7 @@ export default function CreatePage() {
       <div className="mb-8">
         <h1 className="text-4xl font-bold text-white mb-2">Create NFT Collection</h1>
         <p className="text-gray-400">
-          Generate unique AI-powered NFT collections up to 9,999 items
+          Generate unique AI-powered NFT collections up to 20,000+ items
         </p>
       </div>
 

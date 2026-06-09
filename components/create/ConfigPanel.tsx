@@ -63,17 +63,17 @@ export default function ConfigPanel({
           <input
             type="number"
             min="1"
-            max="9999"
+            max="25000"
             value={config.collectionSize}
             onChange={(e) => {
               const value = parseInt(e.target.value, 10);
-              if (!isNaN(value) && value >= 1 && value <= 9999) {
+              if (!isNaN(value) && value >= 1 && value <= 25000) {
                 onConfigChange({ ...config, collectionSize: value });
               }
             }}
             className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
           />
-          <p className="text-xs text-gray-400 mt-1">Maximum 9,999 items</p>
+          <p className="text-xs text-gray-400 mt-1">Maximum 25,000 items</p>
         </div>
       </div>
 
